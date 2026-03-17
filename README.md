@@ -25,27 +25,25 @@ Cet exercice évalue vos compétences en **vibe coding** : la capacité à utili
 
 ```
 ┌─────────────────────────────────────────────┐
-│  EXERCICE 0 : Onboarding & Outillage (30min)│
+│  EXERCICE 0 : Onboarding & Outillage        │
 │  "Préparer le terrain pour les autres"      │
 └─────────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────────┐
-│  EXERCICE 1 : Statut abonnement (20min)     │
+│  EXERCICE 1 : Statut abonnement             │
 │  Améliorer l'affichage du statut            │
 └─────────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────────┐
-│  EXERCICE 2 : Modal changement offre (30min)│
+│  EXERCICE 2 : Modal changement offre        │
 │  Créer un flow de changement d'offre        │
 └─────────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────────┐
-│  EXERCICE 3 : Gestion erreurs (20min)       │
+│  EXERCICE 3 : Gestion erreurs               │
 │  Gérer les cas limites et erreurs           │
 └─────────────────────────────────────────────┘
 ```
-
-**Temps total estimé : 1h40**
 
 ---
 
@@ -92,7 +90,7 @@ src/
 
 ## 📝 Les exercices
 
-### Exercice 0 : Onboarding & Outillage (30 min)
+### Exercice 0 : Onboarding & Outillage
 
 **Situation :** Tu arrives sur ce projet pour la première fois. Tu vas devoir travailler dessus, et d'autres devs vont arriver après toi.
 
@@ -100,7 +98,7 @@ src/
 
 1. **Lire et comprendre** le projet (types, hooks, composants existants, données mock)
 2. **Outiller le projet** pour que tu (et les autres) puissiez vibe coder efficacement
-3. **Documenter ta méthode** : comment tu as créé l'outillage et pourquoi
+3. **Documenter ta méthode** : comment et pourquoi tu as créé l'outillage
 
 **Ce que tu peux créer :**
 
@@ -110,13 +108,13 @@ src/
 - `docs/prompts-examples.md` - Exemples de prompts qui marchent sur ce projet
 - Autre chose que tu juges pertinent
 
-**⏱️ Important :** Ne SAUTE pas cette étape. Elle est cruciale pour la suite.
+**Important :** Ne SAUTE pas cette étape. Elle est cruciale pour la suite.
 
-**📖 Remplir :** Section "Exercice 0" du fichier `AI-JOURNAL.md`
+**📁 Fournir :** Vos logs dans `ai-journal/exercice-0/`
 
 ---
 
-### Exercice 1 : Statut abonnement (20 min)
+### Exercice 1 : Statut abonnement
 
 En utilisant ton outillage de l'Exercice 0, améliorer le composant `SubscriptionStatus` :
 
@@ -125,11 +123,11 @@ En utilisant ton outillage de l'Exercice 0, améliorer le composant `Subscriptio
 3. Afficher un badge différent selon le provider (Stripe vs Paybox)
 4. Améliorer le message quand le rebill a échoué
 
-**📖 Remplir :** Section "Exercice 1" du fichier `AI-JOURNAL.md`
+**📁 Fournir :** Vos logs dans `ai-journal/exercice-1/`
 
 ---
 
-### Exercice 2 : Modal changement d'offre (30 min)
+### Exercice 2 : Modal changement d'offre
 
 Créer un modal de changement d'offre :
 
@@ -139,11 +137,11 @@ Créer un modal de changement d'offre :
 4. Bouton "Confirmer" qui appelle l'API
 5. Feedback de succès/erreur
 
-**📖 Remplir :** Section "Exercice 2" du fichier `AI-JOURNAL.md`
+**📁 Fournir :** Vos logs dans `ai-journal/exercice-2/`
 
 ---
 
-### Exercice 3 : Gestion des erreurs (20 min)
+### Exercice 3 : Gestion des erreurs
 
 Robustifier l'application :
 
@@ -152,7 +150,7 @@ Robustifier l'application :
 3. Validation avant changement d'offre
 4. Toaster de succès/erreur après une action
 
-**📖 Remplir :** Section "Exercice 3" du fichier `AI-JOURNAL.md`
+**📁 Fournir :** Vos logs dans `ai-journal/exercice-3/`
 
 ---
 
@@ -186,14 +184,12 @@ useSubscribe()     // Mutation pour souscrire
 
 L'API mock supporte différents scénarios. Modifie le paramètre `scenario` dans `src/api/client.ts` :
 
-
 | Scénario         | Description                        |
 | ---------------- | ---------------------------------- |
 | `default`        | Utilisateur Gold avec rebill actif |
 | `rebill_failed`  | Dernier prélèvement échoué         |
 | `not_subscribed` | Utilisateur non abonné             |
 | `error`          | Erreur serveur                     |
-
 
 ---
 
@@ -204,7 +200,7 @@ L'API mock supporte différents scénarios. Modifie le paramètre `scenario` dan
 1. ✅ Un projet fonctionnel (`npm run dev` marche)
 2. ✅ L'Exercice 0 complété (outillage + documentation)
 3. ✅ 3 exercices de code complétés
-4. ✅ Le dossier `ai-journal/` rempli
+4. ✅ Le dossier `ai-journal/` avec vos logs bruts
 
 ---
 
@@ -226,31 +222,4 @@ L'API mock supporte différents scénarios. Modifie le paramètre `scenario` dan
 
 ---
 
-## 💡 Conseils
-
-### Pour l'Exercice 0
-
-1. **Prends le temps de lire** le projet avant de documenter
-2. **Pense aux autres** : qu'est-ce que TU aurais aimé trouver en arrivant ?
-3. **Inclus des exemples concrets** de prompts, pas juste de la théorie
-4. **Teste ton outillage** : est-ce que l'IA comprend mieux avec tes rules ?
-
-### Pour les exercices de code
-
-1. **Utilise ton outillage** : c'est fait pour ça
-2. **Sois spécifique** dans tes prompts : "Crée un modal avec X, Y, Z" > "Fais un modal"
-3. **Vérifie** ce que l'IA génère : lis le code, comprends-le
-4. **Itère** si nécessaire : un prompt imparfait n'est pas un échec
-
-### Pour le journal
-
-1. **Sois honnête** : on veut voir ta vraie méthode
-2. **Détaille** : les prompts complets sont plus utiles que des résumés
-3. **Explique** : pourquoi tu as fait ce choix ? pourquoi cette itération ?
-
----
-
 **Bonne chance ! 🍀**
-
----
-
