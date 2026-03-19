@@ -16,7 +16,7 @@ export function SubscriptionStatus() {
       return
     }
 
-    await toggleRebill.mutateAsync(!hasRebill)
+    await toggleRebill.mutateAsync(hasRebill)
     setShowConfirm(false)
   }
 

@@ -40,8 +40,8 @@ Cet exercice évalue vos compétences en **vibe coding** : la capacité à utili
 └─────────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────────┐
-│  EXERCICE 3 : Gestion erreurs               │
-│  Gérer les cas limites et erreurs           │
+│  EXERCICE 3 : Code promo                    │
+│  Ajouter un système de code promotionnel    │
 └─────────────────────────────────────────────┘
 ```
 
@@ -118,12 +118,7 @@ src/
 
 ### Exercice 1 : Statut abonnement
 
-En utilisant ton outillage de l'Exercice 0, améliorer le composant `SubscriptionStatus` :
-
-1. Ajouter une animation lors du changement de statut rebill
-2. Ajouter un compteur de jours restants avant expiration
-3. Afficher un badge différent selon le provider (Stripe vs Paybox)
-4. Améliorer le message quand le rebill a échoué
+Améliorer le composant `SubscriptionStatus` pour une meilleure UX.
 
 **📁 Fournir :** Vos logs dans `ai-journal/exercice-1/`
 
@@ -131,28 +126,23 @@ En utilisant ton outillage de l'Exercice 0, améliorer le composant `Subscriptio
 
 ### Exercice 2 : Modal changement d'offre
 
-Créer un modal de changement d'offre :
-
-1. Modal qui s'ouvre au clic sur "Choisir" une offre
-2. Récapitulatif de l'offre sélectionnée
-3. Sélection de la carte de paiement
-4. Bouton "Confirmer" qui appelle l'API
-5. Feedback de succès/erreur
+Créer un modal de changement d'offre au clic sur "Choisir".
 
 **📁 Fournir :** Vos logs dans `ai-journal/exercice-2/`
 
 ---
 
-### Exercice 3 : Gestion des erreurs
+### Exercice 3 : Code promo
 
-Robustifier l'application :
-
-1. Message approprié si l'API ne répond pas
-2. Cas où l'utilisateur n'a pas de carte enregistrée
-3. Validation avant changement d'offre
-4. Toaster de succès/erreur après une action
+Ajouter un système de code promotionnel sur les offres.
 
 **📁 Fournir :** Vos logs dans `ai-journal/exercice-3/`
+
+---
+
+**💡 Note :** Tu es libre d'améliorer l'UX comme tu le souhaites. L'objectif est d'optimiser l'expérience utilisateur. Sois créatif !
+
+> 👀 P.S. : Il semblerait qu'un petit bug se soit glissé quelque part... Bonne chance !
 
 ---
 
