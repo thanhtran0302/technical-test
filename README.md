@@ -102,11 +102,7 @@ src/
 
 **Liberté totale :** Utilise l'outil IA de ton choix (Cursor, Claude Code, Windsurf, Copilot, Aider, etc.) et crée l'outillage que tu juges pertinent.
 
-**Format des logs :** Pour chaque exercice, crée un fichier `.md` dans `ai-journal/exercice-X/` contenant tes prompts et une brève note sur le résultat obtenu. Pas besoin de tout copier-coller, juste les interactions clés.
-
 **Important :** Ne SAUTE pas cette étape. Elle est cruciale pour la suite.
-
-**📁 Fournir :** Tes logs dans `ai-journal/exercice-0/`
 
 ---
 
@@ -126,8 +122,6 @@ L'utilisateur ne comprend pas bien son statut d'abonnement actuel.
 
 **Bonus :** Propose une amélioration UX de ton choix
 
-**📁 Fournir :** Tes logs dans `ai-journal/exercice-1/`
-
 ---
 
 ### Exercice 2 : Modal changement d'offre
@@ -140,8 +134,6 @@ Actuellement, le bouton "Choisir" sur les offres ne fait rien.
 - [ ] L'utilisateur peut sélectionner son moyen de paiement (cartes enregistrées)
 - [ ] Feedback approprié : loading, succès, erreur
 
-**📁 Fournir :** Tes logs dans `ai-journal/exercice-2/`
-
 ---
 
 ### Exercice 3 : Code promo
@@ -153,8 +145,6 @@ L'entreprise veut proposer des codes promotionnels pour inciter les utilisateurs
 - [ ] Validation du code (mock : `WELCOME20` = -20%, `GOLD50` = -50%, autres = invalide)
 - [ ] Affichage du prix réduit sur les offres si code valide
 - [ ] Gestion des erreurs (code invalide, expiré)
-
-**📁 Fournir :** Tes logs dans `ai-journal/exercice-3/`
 
 ---
 
@@ -224,9 +214,9 @@ L'API mock supporte différents scénarios. Modifie le paramètre `scenario` dan
 À la fin de l'exercice, tu dois avoir :
 
 1. ✅ Un projet fonctionnel (`npm run dev` marche)
-2. ✅ L'Exercice 0 complété (outillage + documentation)
+2. ✅ L'Exercice 0 complété (outillage)
 3. ✅ 3 exercices de code complétés
-4. ✅ Le dossier `ai-journal/` avec tes logs bruts
+4. ✅ Tes interactions clés avec l'IA dans `ai-journal/` (format libre)
 
 ---
 
