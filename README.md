@@ -118,9 +118,19 @@ src/
 
 ### Exercice 1 : Statut abonnement
 
-L'utilisateur ne comprend pas bien son statut d'abonnement. Les informations sont là mais pas assez claires.
+L'utilisateur ne comprend pas bien son statut d'abonnement actuel.
 
-**Problème :** Un utilisateur Gold doit pouvoir voir en un coup d'œil où il en est, et un utilisateur non abonné doit être incité à souscrire.
+**Problèmes identifiés :**
+- Un membre Gold ne voit pas combien de jours il lui reste
+- Aucun indicateur visuel de l'état de l'abonnement (actif, expire bientôt, expiré)
+- Un non-abonné voit juste un bouton sans comprendre ce qu'il rate
+
+**Attendu :**
+- [ ] Afficher le nombre de jours restants avant expiration
+- [ ] Indicateur visuel différent selon l'état (vert > 30j, orange < 30j, rouge < 7j)
+- [ ] Pour les non-abonnés : mettre en avant les avantages Gold
+
+**Bonus :** Propose une amélioration UX de ton choix
 
 **📁 Fournir :** Tes logs dans `ai-journal/exercice-1/`
 
@@ -130,7 +140,11 @@ L'utilisateur ne comprend pas bien son statut d'abonnement. Les informations son
 
 Actuellement, le bouton "Choisir" sur les offres ne fait rien.
 
-**Problème :** L'utilisateur doit pouvoir changer d'offre avec un flow clair et des feedbacks appropriés.
+**Attendu :**
+- [ ] Cliquer sur "Choisir" ouvre une modal de confirmation
+- [ ] La modal affiche le récapitulatif de l'offre sélectionnée
+- [ ] L'utilisateur peut sélectionner son moyen de paiement (cartes enregistrées)
+- [ ] Feedback approprié : loading, succès, erreur
 
 **📁 Fournir :** Tes logs dans `ai-journal/exercice-2/`
 
@@ -138,19 +152,37 @@ Actuellement, le bouton "Choisir" sur les offres ne fait rien.
 
 ### Exercice 3 : Code promo
 
-**Problème :** L'entreprise veut pouvoir proposer des codes promotionnels à certains utilisateurs pour les inciter à souscrire.
+L'entreprise veut proposer des codes promotionnels pour inciter les utilisateurs à souscrire.
+
+**Attendu :**
+- [ ] Champ de saisie pour entrer un code promo
+- [ ] Validation du code (mock : `WELCOME20` = -20%, `GOLD50` = -50%, autres = invalide)
+- [ ] Affichage du prix réduit sur les offres si code valide
+- [ ] Gestion des erreurs (code invalide, expiré)
 
 **📁 Fournir :** Tes logs dans `ai-journal/exercice-3/`
 
 ---
 
-**💡 Note :** Tu es libre d'améliorer l'UX comme tu le souhaites. L'objectif est d'optimiser l'expérience utilisateur. Sois créatif !
+**💡 Note :** Tu es libre d'améliorer l'UX comme tu le souhaites. Sois créatif !
+
+---
+
+## ✅ Critères d'acceptation (tous exercices)
+
+| Critère | Description |
+|---------|-------------|
+| Fonctionnel | Le code compile et la feature marche |
+| Cas limites | Les edge cases sont gérés (erreurs, loading, données vides) |
+| UX cohérente | Style cohérent avec l'existant (shadcn, Tailwind) |
+| TypeScript | Pas de `any`, types corrects |
+| Compréhension | Tu peux expliquer ce que fait le code généré |
 
 ---
 
 ## 🐛 Tickets en cours
 
-> **[SUPPORT-342]** Un utilisateur signale qu'il arrive à sélectionner une carte expirée lors du changement d'offre, ce qui entraîne ensuite un échec de paiement. Le support n'arrive pas à reproduire le bug de son côté. Peut-être que le code peut nous donner un indice...
+> **[JIRA-4521]** Un utilisateur signale qu'il arrive à sélectionner une carte expirée (MasterCard •••• 5678, expirée 01/2024) lors du changement d'offre, ce qui entraîne un échec de paiement. Le hook `useCards()` semble avoir une logique de filtrage mais les cartes expirées apparaissent quand même dans la liste.
 
 ---
 
@@ -207,6 +239,8 @@ L'API mock supporte différents scénarios. Modifie le paramètre `scenario` dan
 ## ✅ Critères d'évaluation
 
 ### Exercice 0 : Outillage (40%)
+
+> **Pourquoi 40% ?** Chez Wyylde, on travaille en équipe avec l'IA. Un bon outillage réduit le temps d'onboarding, garantit une qualité de code consistante, et permet à l'IA de générer du code contextualisé. **Un dev qui sait outiller un projet multiplie la productivité de toute l'équipe.**
 
 - **Pertinence** des fichiers créés
 - **Qualité** de la documentation (claire, complète, réutilisable)

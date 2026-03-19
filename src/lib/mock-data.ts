@@ -51,6 +51,16 @@ export const mockAccount: UserAccount = {
         created: 1704067200,
         expired: 'N',
       },
+      {
+        id: 'sepa_789',
+        object: 'sepa_debit',
+        default: false,
+        last4: '3456',
+        bank_code: 'BNPAFRPP',
+        country: 'FR',
+        created: 1704067200,
+        expired: 'N',
+      },
     ],
     default_card: {
       id: 'card_123',
