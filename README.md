@@ -248,8 +248,6 @@ L'API mock supporte différents scénarios. Modifie le paramètre `scenario` dan
 - **Itération** (capacité à raffiner si nécessaire)
 - **Compréhension** (tu sais ce que le code fait)
 
-**Exemple :** Un prompt efficace contextualise: *"Dans le composant SubscriptionStatus, ajoute un compteur de jours avant expiration en utilisant le champ expiresAt de l'objet subscription"* vs *"Ajoute un compteur"*
-
 ---
 
 **Bonne chance ! 🍀**
