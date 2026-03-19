@@ -58,7 +58,7 @@ Cet exercice évalue vos compétences en **vibe coding** : la capacité à utili
 ### Installation
 
 ```bash
-cd ~/Projects/Koala/wyylde/technical-test
+cd technical-test
 npm install
 npm run dev
 ```
@@ -104,9 +104,11 @@ src/
 
 - `.cursorrules` ou `CLAUDE.md` - Instructions globales pour l'IA
 - `docs/onboarding.md` - Guide pour un nouveau dev
-- `docs/business-rules.md` - Règles métier (qu'est-ce qu'un rebill ? un moratoire ?)
+- `docs/code-overview.md` - Vue d'ensemble du code (types, hooks, composants)
 - `docs/prompts-examples.md` - Exemples de prompts qui marchent sur ce projet
 - Autre chose que tu juges pertinent
+
+**Format des logs :** Pour chaque exercice, crée un fichier `.md` dans `ai-journal/exercice-X/` contenant tes prompts et une brève note sur le résultat obtenu. Pas besoin de tout copier-coller, juste les interactions clés.
 
 **Important :** Ne SAUTE pas cette étape. Elle est cruciale pour la suite.
 
@@ -219,6 +221,8 @@ L'API mock supporte différents scénarios. Modifie le paramètre `scenario` dan
 - **Efficacité** (rapidité à obtenir un résultat)
 - **Itération** (capacité à raffiner si nécessaire)
 - **Compréhension** (tu sais ce que le code fait)
+
+**Exemple :** Un prompt efficace contextualise: *"Dans le composant SubscriptionStatus, ajoute un compteur de jours avant expiration en utilisant le champ expiresAt de l'objet subscription"* vs *"Ajoute un compteur"*
 
 ---
 
