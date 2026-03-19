@@ -53,7 +53,7 @@ Cet exercice évalue tes compétences en **vibe coding** : la capacité à utili
 
 - Node.js 22+
 - npm ou yarn
-- Un compte sur un outil d'IA (Claude, ChatGPT, Cursor, etc.)
+- Un outil d'IA de ton choix (IDE, CLI, ou chat)
 
 ### Installation
 
@@ -100,13 +100,7 @@ src/
 2. **Outiller le projet** pour que tu (et les autres) puissiez vibe coder efficacement
 3. **Documenter ta méthode** : comment et pourquoi tu as créé l'outillage
 
-**Ce que tu peux créer :**
-
-- `.cursorrules` ou `CLAUDE.md` - Instructions globales pour l'IA
-- `docs/onboarding.md` - Guide pour un nouveau dev
-- `docs/code-overview.md` - Vue d'ensemble du code (types, hooks, composants)
-- `docs/prompts-examples.md` - Exemples de prompts qui marchent sur ce projet
-- Autre chose que tu juges pertinent
+**Liberté totale :** Utilise l'outil IA de ton choix (Cursor, Claude Code, Windsurf, Copilot, Aider, etc.) et crée l'outillage que tu juges pertinent.
 
 **Format des logs :** Pour chaque exercice, crée un fichier `.md` dans `ai-journal/exercice-X/` contenant tes prompts et une brève note sur le résultat obtenu. Pas besoin de tout copier-coller, juste les interactions clés.
 
