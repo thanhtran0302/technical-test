@@ -146,8 +146,6 @@ Actuellement, le bouton "Choisir" sur les offres ne fait rien.
 
 **💡 Note :** Tu es libre d'améliorer l'UX comme tu le souhaites. L'objectif est d'optimiser l'expérience utilisateur. Sois créatif !
 
-> 👀 P.S. : Il semblerait qu'un petit bug se soit glissé quelque part... Bonne chance !
-
 ---
 
 ## 📚 Ressources
