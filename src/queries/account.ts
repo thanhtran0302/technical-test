@@ -57,6 +57,12 @@ export function useSubscription() {
 export function useCards() {
   const { data: account, ...query } = useAccount()
 
+  const validCards = account?.subscription?.cards?.filter(card => {
+    const now = new Date()
+    const expDate = new Date(card.exp_year, card.exp_month)
+    return expDate >= now
+  }) ?? []
+
   return {
     cards: account?.subscription?.cards ?? [],
     defaultCard: account?.subscription?.default_card,
