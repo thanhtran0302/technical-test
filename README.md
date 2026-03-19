@@ -118,7 +118,9 @@ src/
 
 ### Exercice 1 : Statut abonnement
 
-Améliorer le composant `SubscriptionStatus` pour une meilleure UX.
+L'utilisateur ne comprend pas bien son statut d'abonnement. Les informations sont là mais pas assez claires.
+
+**Problème :** Un utilisateur Gold doit pouvoir voir en un coup d'œil où il en est, et un utilisateur non abonné doit être incité à souscrire.
 
 **📁 Fournir :** Vos logs dans `ai-journal/exercice-1/`
 
@@ -126,7 +128,9 @@ Améliorer le composant `SubscriptionStatus` pour une meilleure UX.
 
 ### Exercice 2 : Modal changement d'offre
 
-Créer un modal de changement d'offre au clic sur "Choisir".
+Actuellement, le bouton "Choisir" sur les offres ne fait rien.
+
+**Problème :** L'utilisateur doit pouvoir changer d'offre avec un flow clair et des feedbacks appropriés.
 
 **📁 Fournir :** Vos logs dans `ai-journal/exercice-2/`
 
@@ -134,7 +138,7 @@ Créer un modal de changement d'offre au clic sur "Choisir".
 
 ### Exercice 3 : Code promo
 
-Ajouter un système de code promotionnel sur les offres.
+**Problème :** L'entreprise veut pouvoir proposer des codes promotionnels à certains utilisateurs pour les inciter à souscrire.
 
 **📁 Fournir :** Vos logs dans `ai-journal/exercice-3/`
 
