@@ -58,6 +58,7 @@ export function useCards() {
   const { data: account, ...query } = useAccount()
 
   const validCards = account?.subscription?.cards?.filter(card => {
+    if (!('exp_year' in card)) return true // SEPA n'expire pas comme une carte
     const now = new Date()
     const expDate = new Date(card.exp_year, card.exp_month)
     return expDate >= now
