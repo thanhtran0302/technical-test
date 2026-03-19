@@ -4,7 +4,7 @@ Exercice technique pour les candidats frontend, basé sur le projet Wyylde.
 
 ## 🎯 Objectif
 
-Cet exercice évalue vos compétences en **vibe coding** : la capacité à utiliser efficacement des outils d'IA pour développer.
+Cet exercice évalue tes compétences en **vibe coding** : la capacité à utiliser efficacement des outils d'IA pour développer.
 
 **Ce qu'on évalue :**
 
@@ -112,7 +112,7 @@ src/
 
 **Important :** Ne SAUTE pas cette étape. Elle est cruciale pour la suite.
 
-**📁 Fournir :** Vos logs dans `ai-journal/exercice-0/`
+**📁 Fournir :** Tes logs dans `ai-journal/exercice-0/`
 
 ---
 
@@ -122,7 +122,7 @@ L'utilisateur ne comprend pas bien son statut d'abonnement. Les informations son
 
 **Problème :** Un utilisateur Gold doit pouvoir voir en un coup d'œil où il en est, et un utilisateur non abonné doit être incité à souscrire.
 
-**📁 Fournir :** Vos logs dans `ai-journal/exercice-1/`
+**📁 Fournir :** Tes logs dans `ai-journal/exercice-1/`
 
 ---
 
@@ -132,7 +132,7 @@ Actuellement, le bouton "Choisir" sur les offres ne fait rien.
 
 **Problème :** L'utilisateur doit pouvoir changer d'offre avec un flow clair et des feedbacks appropriés.
 
-**📁 Fournir :** Vos logs dans `ai-journal/exercice-2/`
+**📁 Fournir :** Tes logs dans `ai-journal/exercice-2/`
 
 ---
 
@@ -140,7 +140,7 @@ Actuellement, le bouton "Choisir" sur les offres ne fait rien.
 
 **Problème :** L'entreprise veut pouvoir proposer des codes promotionnels à certains utilisateurs pour les inciter à souscrire.
 
-**📁 Fournir :** Vos logs dans `ai-journal/exercice-3/`
+**📁 Fournir :** Tes logs dans `ai-journal/exercice-3/`
 
 ---
 
@@ -200,7 +200,7 @@ L'API mock supporte différents scénarios. Modifie le paramètre `scenario` dan
 1. ✅ Un projet fonctionnel (`npm run dev` marche)
 2. ✅ L'Exercice 0 complété (outillage + documentation)
 3. ✅ 3 exercices de code complétés
-4. ✅ Le dossier `ai-journal/` avec vos logs bruts
+4. ✅ Le dossier `ai-journal/` avec tes logs bruts
 
 ---
 
