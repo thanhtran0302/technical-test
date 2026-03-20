@@ -2,6 +2,13 @@
 
 Exercice technique pour les candidats frontend, basé sur le projet Wyylde.
 
+## ⚠️ Préambule
+
+Tout d’abord, tu as une semaine pour faire ce test (mais tu peux le rendre avant). Il te faudra :
+- Fork ce projet
+- Mettre le fork en privé
+- Inviter sur ce fork les utilisateurs @vthibault à @thanhtran0302
+
 ## 🎯 Objectif
 
 Cet exercice évalue tes compétences en **vibe coding** : la capacité à utiliser efficacement des outils d'IA pour développer.
